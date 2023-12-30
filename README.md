@@ -27,9 +27,23 @@ The image-based procedure for detecting parking space availability was successfu
 
 One of the limitations identified in this project is the impact of weather conditions on image recognition. Future improvements could involve enhancing image filtering techniques to enable reliable recognition in all weather conditions.
 
-## Acknowledgement
+## Tools and Libraries
 
-Acknowledgment to contributors, resources, or institutions that supported the completion of this project.
+### Python Libraries:
+- **OpenCV (cv2):** Used for image processing tasks, video capture, and analysis.
+- **Pickle:** Utilized for reading and writing Python objects in a serialized format.
+- **cvzone:** A computer vision library providing additional functionality for OpenCV.
+- **NumPy:** Used for numerical computations and array manipulations.
+
+## Code Overview
+
+```python
+import cv2
+import pickle
+import cvzone
+import numpy as np
+
+# Rest of the code...
 
 ## References
 
